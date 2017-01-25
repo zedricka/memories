@@ -54,8 +54,8 @@ In this project we will use Advance CSS and apply Javascript for user interactio
   <li>If the all cards are matched create a winner message</li>
 </ul>
 
-<h4>Stretch Goals (2)</h4>
-<h5>Part two (2): Javascript</h5>
+<h4>Stretch Goals (1)</h4>
+<h5>Part two (1): Javascript</h5>
 <ul>
   <li>Create a new branch called <i>timer</i></li>
   <li>Create the timer functionality to count down from a minimum of 30 secs</li>
