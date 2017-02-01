@@ -1,10 +1,8 @@
 /* This makes the container size */
 .card {
-  background-color: red;
   width: 200px;
   height: 250px;
   margin: 20px;
-  border: 1px solid black;
 }
 
 /* 1st line and keeps everything "Responsive" */
@@ -37,24 +35,14 @@ h1 {
 
 .card__front,
 .card__back {
-  background-color: blue;
-  -webkit-backface-visibility: hidden;
-          backface-visibility: hidden;
-  -webkit-transition: -webkit-transform 0.3s;
-          transition: transform 0.3s;
+  background-color: lightgreen;
+  width: 200px;
+  height: 250px;
+  position: absolute;
+  border: 1px solid black;
 }
 
-.card__back {
-  -webkit-transform: rotateY(-180deg);
-          transform: rotateY(-180deg);
-}
-
-.card.effect__click.flipped .card__front {
-  -webkit-transform: rotateY(-180deg);
-          transform: rotateY(-180deg);
-}
-
-.card.effect__click.flipped .card__back {
-  -webkit-transform: rotateY(0);
-          transform: rotateY(0);
+img.resize{
+   width:200px;
+   height:250px;
 }

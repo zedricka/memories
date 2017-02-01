@@ -1,0 +1,21 @@
+
+/* Visibility & Hides */
+.card__front,
+.card__back {
+  backface-visibility: hidden;
+  transition: transform 0.3s;
+}
+
+.card__back {
+  transform: rotateY(-180deg);
+}
+
+/*Transition on click*/
+
+.card.effect__click.flipped .card__front {
+  transform: rotateY(-180deg);
+}
+
+.card.effect__click.flipped .card__back {
+  transform: rotateY(0);
+}
