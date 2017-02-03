@@ -1,14 +1,10 @@
-(function() {
-  var cards = document.querySelectorAll(".card.effect__click");
-  for ( var i  = 0, len = cards.length; i < len; i++ ) {
-    var card = cards[i];
-    clickListener( card );
+function turncard(cardeffect){ 
+  document.getElementById(cardeffect).style.transform = 'rotateY(180deg)';
+  
+  if (document.getElementById(cardeffect).style.transform === 'rotateY(180deg)') {
+    setTimeout(function(){document.getElementById(cardeffect).style.transform = 'rotateY(0deg)';
+    }, 1000);
   }
+}
 
-  function clickListener(card) {
-    card.addEventListener( "click", function() {
-      var c = this.classList;
-      c.contains("flipped") === true ? c.remove("flipped") : c.add("flipped");
-    });
-  }
-})();
+var pokemon = ["./assets/userious.jpeg/", "./assets/digging.jpeg", "./assets/charizard.jpeg", "./assets/high.jpeg", "./assets/troll.jpeg"];

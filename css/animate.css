@@ -10,12 +10,3 @@
   transform: rotateY(-180deg);
 }
 
-/*Transition on click*/
-
-.card.effect__click.flipped .card__front {
-  transform: rotateY(-180deg);
-}
-
-.card.effect__click.flipped .card__back {
-  transform: rotateY(0);
-}

@@ -11,20 +11,28 @@
 <body>
 <h1> Another Memory Game? Wow</h1>
   <!-- Wrapper -->
-<div class="flip-container" ontouchstart="this.classList.toggle('onclick');">
+<div id="card_container">
   <div class="box1">
-    <div class="card effect__click">
+
+    <div id="cardeffect" class="card" onclick="turncard(this.id)">
      <div class="card__front">
        <img class="resize" src="http://vignette1.wikia.nocookie.net/cardgame/images/a/ac/Pokemon-card-back.jpg/revision/latest?cb=20131228023927">
      </div>
-     <div class="card__back">OwO WHATS THIS?</div>
+     <div class="card__back"></div>
     </div>
 
-    <div class="card effect__click">
+    <div id="cardeffect" class="card" onclick="turncard(this.id)">
      <div class="card__front">
        <img class="resize" src="http://vignette1.wikia.nocookie.net/cardgame/images/a/ac/Pokemon-card-back.jpg/revision/latest?cb=20131228023927">
      </div>
-     <div class="card__back">Surprised?</div>
+     <div class="card__back"></div>
+    </div>
+
+    <div id="cardeffect" class="card" onclick="turncard(this.id)">
+     <div class="card__front">
+       <img class="resize" src="http://vignette1.wikia.nocookie.net/cardgame/images/a/ac/Pokemon-card-back.jpg/revision/latest?cb=20131228023927">
+     </div>
+     <div class="card__back"></div>
     </div>
 
     <div class="card effect__click">
@@ -35,15 +43,7 @@
        <img class="resize" src="http://static.api6.studiobebop.net/pokemon_data/card_images/Charizard__4_102__Base_Set.jpg">
      </div>
     </div>
-
-    <div class="card effect__click">
-     <div class="card__front">
-       <img class="resize" src="http://vignette1.wikia.nocookie.net/cardgame/images/a/ac/Pokemon-card-back.jpg/revision/latest?cb=20131228023927">
-     </div>
-     <div class="card__back">
-       <img class="resize" src="http://static.api6.studiobebop.net/pokemon_data/card_images/Charizard__4_102__Base_Set.jpg">
-     </div>
-    </div>
+  </div>
   </div>
 
   <div class="box2">
