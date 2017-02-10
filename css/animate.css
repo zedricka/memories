@@ -1,12 +1,7 @@
-
 /* Visibility & Hides */
-.card__front,
-.card__back {
+
+#cardeffect {
+  transform-style: preserve-3d;
+  transition: all 1s;
   backface-visibility: hidden;
-  transition: transform 0.3s;
 }
-
-.card__back {
-  transform: rotateY(-180deg);
-}
-

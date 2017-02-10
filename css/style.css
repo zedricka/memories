@@ -33,16 +33,22 @@ h1 {
   text-align: center;
 }
 
+
 .card__front,
 .card__back {
-  background-color: lightgreen;
   width: 200px;
   height: 250px;
   position: absolute;
   border: 1px solid black;
 }
 
-img.resize{
-   width:200px;
-   height:250px;
+.card__front {
+  background-image: url("../assets/Pokemon-card-back.png");
+  background-size: 200px 250px;
 }
+
+.card__back {
+  background-image: url("../assets/charizard.png"); 
+  background-size: 200px 250px;
+
+  }

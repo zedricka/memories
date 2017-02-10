@@ -1,4 +1,7 @@
+// Flip
+
 function turncard(cardeffect){ 
+  console.log (document.getElementById(cardeffect))
   document.getElementById(cardeffect).style.transform = 'rotateY(180deg)';
   
   if (document.getElementById(cardeffect).style.transform === 'rotateY(180deg)') {
@@ -7,4 +10,8 @@ function turncard(cardeffect){
   }
 }
 
-var pokemon = ["./assets/userious.jpeg/", "./assets/digging.jpeg", "./assets/charizard.jpeg", "./assets/high.jpeg", "./assets/troll.jpeg"];
+// Pictures
+
+var pokemon = ["../assets/userious.png", "../assets/digging.png", "../assets/charizard.png", "../assets/high.png", "../assets/troll.png"];
+
+
