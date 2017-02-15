@@ -10,8 +10,13 @@ function turncard(cardeffect){
   }
 }
 
+var clicks = 0;
+
 // Pictures
 
-var pokemon = ["../assets/userious.png", "../assets/digging.png", "../assets/charizard.png", "../assets/high.png", "../assets/troll.png"];
+var pokemon = [];
 
-
+function wow (test) {
+  if (card1 && card2 == 1 && card1 && card2 == savemefromthisclass.png == true )
+    card.flipped = dontflipback
+}

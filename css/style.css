@@ -43,12 +43,12 @@ h1 {
 }
 
 .card__front {
-  background-image: url("../assets/Pokemon-card-back.png");
+  background-image: url("../assets/charizard.png"); 
   background-size: 200px 250px;
 }
 
 .card__back {
-  background-image: url("../assets/charizard.png"); 
   background-size: 200px 250px;
+  background-image: url("../assets/Pokemon-card-back.png");
 
   }

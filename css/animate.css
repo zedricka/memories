@@ -5,3 +5,45 @@
   transition: all 1s;
   backface-visibility: hidden;
 }
+
+#cardeffect1 {
+  transform-style: preserve-3d;
+  transition: all 1s;
+  backface-visibility: hidden;
+}
+
+#cardeffect2 {
+  transform-style: preserve-3d;
+  transition: all 1s;
+  backface-visibility: hidden;
+}
+
+#cardeffect3 {
+  transform-style: preserve-3d;
+  transition: all 1s;
+  backface-visibility: hidden;
+}
+
+#cardeffect4 {
+  transform-style: preserve-3d;
+  transition: all 1s;
+  backface-visibility: hidden;
+}
+
+#cardeffect5 {
+  transform-style: preserve-3d;
+  transition: all 1s;
+  backface-visibility: hidden;
+}
+
+#cardeffect6 {
+  transform-style: preserve-3d;
+  transition: all 1s;
+  backface-visibility: hidden;
+}
+
+#cardeffect7 {
+  transform-style: preserve-3d;
+  transition: all 1s;
+  backface-visibility: hidden;
+}
