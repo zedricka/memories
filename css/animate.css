@@ -3,7 +3,6 @@
 #cardeffect {
   transform-style: preserve-3d;
   transition: all 1s;
-  backface-visibility: hidden;
 }
 
 #cardeffect1 {

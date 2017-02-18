@@ -10,82 +10,69 @@
 </head>
 <body>
 <h1> Another Memory Game? Wow</h1>
+<div id="score">
+  <h1>Score: <h1 id="points">0</h1> </h1>
+</div>
   <!-- Wrapper -->
 <div id="card_container">
   <div class="box1">
 
     <div id="cardeffect" class="card" onclick="turncard(this.id)">
      <div class="card__front card1">
-     
-     </div>
-     <div class="card__back">
-     
+      <img src="./assets/charizard.png" class="front" id="flip1">
+      <img src="./assets/Pokemon-card-back.png" class="back" id="backflip1" onclick="changea(); check()">
      </div>
     </div>
 
     <div id="cardeffect1" class="card" onclick="turncard(this.id)">
      <div class="card__front card2">
-   
-     </div>
-     <div class="card__back">
-       
+      <img src="./assets/troll.png" class="front" id="flip2">
+      <img src="./assets/Pokemon-card-back.png" class="back" id="backflip2" onclick="changeb(); check()">
      </div>
     </div>
 
-    <div id="cardeffect2" class="card" onclick="turncard(this.id)">
+    <div id="cardeffect2" class="card">
      <div class="card__front card3">
-   
-     </div>
-     <div class="card__back">
-       
+      <img src="./assets/charizard.png" class="front" id="flip3">
+      <img src="./assets/Pokemon-card-back.png" class="back" id="backflip3" onclick="changee(); check()">
      </div>
     </div>
 
-    <div id="cardeffect3" class="card" onclick="turncard(this.id)">
+    <div id="cardeffect3" class="card">
      <div class="card__front card4">
-    
-     </div>
-     <div class="card__back">
-       
+      <img src="./assets/troll.png" class="front" id="flip4">
+      <img src="./assets/Pokemon-card-back.png" class="back" id="backflip4" onclick="changef(); check()">
      </div>
     </div>
   </div>
   </div>
 
   <div class="box2">
-    <div id="cardeffect4" class="card" onclick="turncard(this.id)">
+    <div id="cardeffect4" class="card"">
      <div class="card__front card5">
-   
-     </div>
-     <div class="card__back">
-       
+      <img src="./assets/userious.png" class="front" id="flip5">
+      <img src="./assets/Pokemon-card-back.png" class="back" id="backflip5" onclick="changec(); check()">
      </div>
     </div>
 
     <div id="cardeffect5" class="card" onclick="turncard(this.id)">
      <div class="card__front card6">
-     
-     </div>
-     <div class="card__back">
-       
+      <img src="./assets/userious.png" class="front" id="flip6">
+      <img src="./assets/Pokemon-card-back.png" class="back" id="backflip6" onclick="changeg(); check()">
      </div>
     </div>
 
     <div id="cardeffect6" class="card" onclick="turncard(this.id)">
      <div class="card__front card7">
-    
-     </div>
-     <div class="card__back">
-       
+      <img src="./assets/high.png" class="front" id="flip7">
+      <img src="./assets/Pokemon-card-back.png" class="back" id="backflip7" onclick="changed(); check()">
      </div>
     </div>
 
     <div id="cardeffect7" class="card" onclick="turncard(this.id)">
      <div class="card__front card8">
-     
-     </div>
-     <div class="card__back">
-       
+      <img src="./assets/high.png" class="front" id="flip8">
+      <img src="./assets/Pokemon-card-back.png" class="back" id="backflip8" onclick="changeh(); check()">
      </div>
     </div>
   </div>
@@ -108,4 +95,7 @@ https://davidwalsh.name/css-flip
 
 http://slides.com/kelliborgonia/flexbox-grids-sept-2016#/4
 
-davidsheriff.com/js-quiz/ -->
+davidsheriff.com/js-quiz/ 
+http://clockworkchilli.com/tutorials/javascript_memory_game.html
+
+-->
